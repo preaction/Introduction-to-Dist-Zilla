@@ -1,11 +1,15 @@
 
-# TALK NAME
+# Introduction to Dist::Zilla
 
-This presentation covers TALK TOPIC
+A short, gentle introduction to Perl distribution management with Dist::Zilla
 
 ## Covered topics
 
-TBA
+* Dist::Zilla
+* Basic `dzil` commands
+* Basic CPAN distribution management
+* Prerequisite management
+* Git repository management
 
 # COPYRIGHT AND LICENSE
 
