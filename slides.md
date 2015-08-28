@@ -296,6 +296,8 @@ dzil listdeps --missing | cpanm
 
 # PkgVersion Plugin
 
+`[PkgVersion]`
+
 ---
 
 # Adds `$VERSION` to modules
@@ -303,6 +305,8 @@ dzil listdeps --missing | cpanm
 ---
 
 # PodVersion Plugin
+
+`[PodVersion]`
 
 ---
 
@@ -331,9 +335,7 @@ My::Versioned::Dist - A dist with version modifications
 # After!
 ```
 package My::Versioned::Dist;
-{
-  $My::Versioned::Dist::VERSION = '0.001';
-}
+{ $My::Versioned::Dist::VERSION = '0.001'; }
 
 use strict;
 use warnings;
